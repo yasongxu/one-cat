@@ -1,0 +1,25 @@
+<view class="container">
+  <Header/>
+  
+  <view class="list">
+    <view class="card" wx:for="{{list}}" bindtap="showDetail" data-content="{{item}}">
+      <view class="title">
+        <text>{{item.type === 1 ? '图': '视频'}} / {{item.source}}</text>
+      </view>
+      <view class="img-wrapper" wx:if="{{item.type === 1}}">
+        <image src='{{item.mediaUrl}}' mode="scaleToFill"></image>
+      </view>
+      <view wx:if="{{item.type === 2}}">
+        <video src='{{item.mediaUrl}}'
+  controls="true" objectFit="cover">
+        </video>
+      </view>
+      <view class="content">{{item.briefContent}}</view>
+    </view>
+
+
+  </view>
+  <view class='footer'>
+    <text>one-cat</text>
+  </view>
+</view>

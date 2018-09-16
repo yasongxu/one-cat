@@ -1,0 +1,25 @@
+<view class="container">
+  <image src="{{cardInfo.mediaUrl}}"></image>
+  <view class="content">
+    <view class="card">
+      <view class="title">{{cardInfo.type === 1 ? '图': '视频'}}  |  {{cardInfo.source}}</view>
+      <view class="date">
+        <view class="day">{{cardInfo.dateObj.day}}</view>
+        <view>{{cardInfo.dateObj.month}} / 
+        {{cardInfo.dateObj.year}}</view>
+      </view>
+      <view class="card-content">
+      {{cardInfo.content}}
+      </view>
+      <view class="card-author">
+       ---{{cardInfo.contentSource}}
+      </view>
+      <view class="hr">
+       ——————————————
+      </view>
+      <view class="share">
+       
+      </view>
+    </view>
+  </view>
+</view>
