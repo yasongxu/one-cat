@@ -51,7 +51,8 @@ header {
 .list .card .content {
   width: 92%;
   color: #737373;
-  margin-top:5px;
+  margin-top:8px;
+  margin-bottom:8px;
   word-break: break-all;
 }
 .footer{

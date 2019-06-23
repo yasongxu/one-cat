@@ -58,8 +58,8 @@ Page({
           day: '01'
         },
         week: "周六",
-        type: 2,
-        mediaUrl: 'https://vermouth2018.oss-cn-qingdao.aliyuncs.com/cat/video/2.mp4',
+        type: 1,
+      mediaUrl: 'https://vermouth2018.oss-cn-qingdao.aliyuncs.com/cat/image/12.jpg',
         briefContent: '不能忍受生命中注定要忍受的事情，就是软弱和愚蠢的表现。',
         content: '假如你避免不了，就得去忍受。不能忍受生命中注定要忍受的事情，就是软弱和愚蠢的表现。',
         contentSource: '勃朗特 《简爱》',
